@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { navItems } from './../../_nav';
 
 @Component({
@@ -18,6 +18,7 @@ export class DefaultLayoutComponent {
 
     this.changes.observe(<Element>this.element, {
       attributes: true
+
     });
   }
 }
